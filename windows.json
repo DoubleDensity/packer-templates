@@ -145,14 +145,4 @@
       "remote_path": "C:\\script.bat"
     }
   ],
-  "post-processors": [
-    [
-      {
-        "type": "vagrant",
-        "compression_level": 9,
-        "vagrantfile_template": "Vagrantfile-windows.template",
-        "output": "{{ user `packer_images_output_dir` }}/{{ user `name` }}-{{ .Provider }}.box"
-      }
-    ]
-  ]
 }
