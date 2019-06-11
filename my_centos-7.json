@@ -112,15 +112,5 @@
         "scripts/linux-common/cleanup.sh"
       ]
     }
-  ],
-  "post-processors": [
-    [
-      {
-        "type": "vagrant",
-        "compression_level": 9,
-        "vagrantfile_template": "Vagrantfile-linux.template",
-        "output": "{{ user `packer_images_output_dir` }}/{{ user `name` }}-{{ .Provider }}.box"
-      }
-    ]
   ]
 }
