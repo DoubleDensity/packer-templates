@@ -13,7 +13,7 @@
     "ssh_password": "vagrant",
     "preseed_file_name": "my-ks.cfg",
     "disk_size": "51200",
-    "headless": "false"
+    "headless": "true"
   },
 
   "builders":
